@@ -33,10 +33,9 @@ The signal strength data were synthetically generated through simulation of mobi
 # Usage
 #### You are welcome to use these datasets for academic or research purposes. Please ensure proper attribution by citing the following papers:
 ## Citation
-1️⃣ Saedi et al., 2020
-
-"Generation of realistic signal strength measurements for a 5G Rogue Base Station attack scenario"
+1️⃣ Saedi et al., 2020, "Generation of realistic signal strength measurements for a 5G Rogue Base Station attack scenario"
 In IEEE Conference on Communications and Network Security (CNS), 2020
+
 @inproceedings{saedi2020generation,
   title={Generation of realistic signal strength measurements for a 5G Rogue Base Station attack scenario},
   author={Saedi, Mohammad and Moore, Adrian and Perry, Philip and Shojafar, Mohammad and Ullah, Hanif and Synnott, Jonathan and Brown, Ruth and Herwono, Ian},
@@ -46,10 +45,9 @@ In IEEE Conference on Communications and Network Security (CNS), 2020
   organization={IEEE}
 }
 
-2️⃣ Saedi et al., 2022
-
-"Synthetic generation of realistic signal strength data to enable 5G rogue base station investigation in vehicular platooning"
+2️⃣ Saedi et al., 2022, "Synthetic generation of realistic signal strength data to enable 5G rogue base station investigation in vehicular platooning"
 In Applied Sciences, 2022
+
 @article{saedi2022synthetic,
   title={Synthetic generation of realistic signal strength data to enable 5g rogue base station investigation in vehicular platooning},
   author={Saedi, Mohammad and Moore, Adrian and Perry, Philip},
