@@ -8,17 +8,24 @@ Each dataset consists of CSV files representing signal strength data from a simu
 # Dataset Structure
 ## The ZIP file dataset_RBS.zip contains the following CSV files:
 90LBS–18RBS
+
 500LBS–90RBS
+
 1000LBS–180RBS
 ## Each dataset is generated using multiple window sizes (WS):
 WS=3
+
 WS=5
+
 WS=7
+
 WS=10
 # Naming Convention
 ### Example:
 90LBS–18RBS_WS5.csv
+
 90LBS–18RBS → 90 Legitimate Base Stations and 18 Rogue Base Stations
+
 WS5 → Window Size of 5 samples
 # Description
 The datasets are suitable for training and evaluating machine learning models for detecting rogue base stations based on signal strength patterns observed in mobile network scenarios such as vehicular environments or platooning.
@@ -27,6 +34,7 @@ The signal strength data were synthetically generated through simulation of mobi
 #### You are welcome to use these datasets for academic or research purposes. Please ensure proper attribution by citing the following papers:
 ## Citation
 1️⃣ Saedi et al., 2020
+
 "Generation of realistic signal strength measurements for a 5G Rogue Base Station attack scenario"
 In IEEE Conference on Communications and Network Security (CNS), 2020
 @inproceedings{saedi2020generation,
@@ -37,7 +45,9 @@ In IEEE Conference on Communications and Network Security (CNS), 2020
   year={2020},
   organization={IEEE}
 }
+
 2️⃣ Saedi et al., 2022
+
 "Synthetic generation of realistic signal strength data to enable 5G rogue base station investigation in vehicular platooning"
 In Applied Sciences, 2022
 @article{saedi2022synthetic,
@@ -52,5 +62,7 @@ In Applied Sciences, 2022
 }
 ## License
 The datasets are provided for academic and research use only.
+
 Commercial use is not permitted without prior written consent.
+
 If you use these datasets, please cite the two papers listed above.
