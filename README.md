@@ -103,18 +103,21 @@ Converts measurement reports into machine learning-ready data format.
 * Script: MLP.py
 
 Performs training and evaluation of MLP models with:
+
 Train/test splits: 70/30 and 80/20
+
 Metrics evaluated:
-Accuracy
-Precision
-F1-Score
-Training Loss Rate
-False Positive Rate (FP)
+
+* Accuracy
+* Precision
+* F1-Score
+* Training Loss Rate
+* False Positive Rate (FP)
 Performance comparison across different RSS window sizes
-Scenarios
+## Scenarios
 This pipeline is applied across different scenarios:
-Varying number of Legitimate Base Stations (LBS) and Rogue Base Stations (RBS)
-Varying RSS window sizes (WS=3, WS=5, WS=7, WS=10)
+* Varying number of Legitimate Base Stations (LBS) and Rogue Base Stations (RBS)
+* Varying RSS window sizes (WS=3, WS=5, WS=7, WS=10)
 How to Use
 1️⃣ Unzip Simulation-Coding.zip
 2️⃣ Run scripts in order:
