@@ -122,8 +122,11 @@ This pipeline is applied across different scenarios:
 ## 1️⃣ Unzip Simulation-Coding.zip
 ## 2️⃣ Run scripts in order:
 python prepare_MR.py
+
 python AddHeaderToMR.py
+
 python MR_to_ML_data.py
+
 python MLP.py
 ## 3️⃣ Adjust input file names and window size parameters as required for each scenario.
 
