@@ -74,7 +74,6 @@ The generated ML data is used to train and evaluate MLP-based classifiers for id
 The full pipeline consists of the following steps:
 
 ## 1️⃣ Prepare Measurement Report (MR)
-
 Input: RSS_90LBS_Time_Xleader.csv
 
 Script: prepare_MR.py
@@ -83,25 +82,25 @@ Output: MR.csv
 
 Generates measurement report (MR) data using timestamp and platoon position features.
 ## 2️⃣ Add Header to MR
-Input: MR.csv
+* Input: MR.csv
 
-Script: AddHeaderToMR.py
+* Script: AddHeaderToMR.py
 
-Output: MR_NoTime&Xleader.csv
+* Output: MR_NoTime&Xleader.csv
 
 Adds the appropriate header to the MR data to prepare it for ML conversion.
 ## 3️⃣ Convert MR to ML Data
-Input: MR_NoTime&Xleader.csv
+* Input: MR_NoTime&Xleader.csv
 
-Script: MR_to_ML_data.py
+* Script: MR_to_ML_data.py
 
-Output: ML_data_90LBS_WS3.csv
+* Output: ML_data_90LBS_WS3.csv
 
 Converts measurement reports into machine learning-ready data format.
 ## 4️⃣ Machine Learning Model Training and Evaluation
 * Input: ML_data_90LBS_WS3.csv
 
-*Script: MLP.py
+* Script: MLP.py
 
 Performs training and evaluation of MLP models with:
 Train/test splits: 70/30 and 80/20
