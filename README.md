@@ -44,8 +44,7 @@ The signal strength data were synthetically generated through simulation of mobi
   organization={IEEE}
 }
 
-2️⃣ Saedi et al., 2022, "Synthetic generation of realistic signal strength data to enable 5G rogue base station investigation in vehicular platooning"
-In Applied Sciences, 2022
+2️⃣ Saedi, M., Moore, A. and Perry, P., 2022. Synthetic generation of realistic signal strength data to enable 5g rogue base station investigation in vehicular platooning. Applied Sciences, 12(24), p.12516. https://doi.org/10.3390/app122412516 
 
 @article{saedi2022synthetic,
   title={Synthetic generation of realistic signal strength data to enable 5g rogue base station investigation in vehicular platooning},
