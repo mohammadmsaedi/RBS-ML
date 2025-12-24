@@ -1,6 +1,6 @@
 # RBS-ML
 
-RBS-MLP Datasets for 5G Rogue Base Station Detection
+RBS-ML Datasets for 5G Rogue Base Station Detection
 
 This repository contains datasets used for the research and evaluation of machine learning-based detection of Rogue Base Stations (RBS) in 5G networks. These datasets were generated using realistic signal strength measurements as described in our published papers (see Citation section below).
 Each dataset consists of CSV files representing signal strength data from a simulated vehicular scenario, containing both Legitimate Base Stations (LBS) and Rogue Base Stations (RBS), across different window sizes.
